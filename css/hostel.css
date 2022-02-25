@@ -1,0 +1,48 @@
+.bg-img {
+  /* The image used */
+  background-image: url("img/ph3.jpg");
+
+  min-height:800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #8de296;
+  margin-top:191px;
+  margin-left:530px;
+  border-radius:10px 10px 10px ;
+  
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right:1px solid #AFAFAF;
+  font-weight:bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}

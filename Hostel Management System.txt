@@ -1,0 +1,3 @@
+Project Name: Hostel Management System
+Database Name: cse301
+sql file: cse301.sql
